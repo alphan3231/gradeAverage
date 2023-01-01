@@ -12,7 +12,7 @@ func main() {
 	sum := 0
 	for i := 0; i < numOfLessons; i++ {
 		fmt.Printf("enter %v . grade: ", i)
-		var not int
+		var grade int
 		fmt.Scan(&grade)
 		sum = sum + grade
 	}

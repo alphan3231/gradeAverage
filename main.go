@@ -11,10 +11,10 @@ func main() {
 
 	sum := 0
 	for i := 0; i < numOfLessons; i++ {
-		fmt.Printf("%v . enter your grade: ", i)
+		fmt.Printf("enter %v . grade: ", i)
 		var not int
-		fmt.Scan(&not)
-		sum = sum + not
+		fmt.Scan(&grade)
+		sum = sum + grade
 	}
 
 	average := int(sum) / int(numOfLessons)
